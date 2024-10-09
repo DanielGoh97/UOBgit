@@ -18,9 +18,8 @@ jobs:
         uses: actions/checkout@v4
       - name: print content
         run: |
-          l
+          ls
 
-          
 - name: Installing Python
   uses: actions/setup-python@v5
   with:
